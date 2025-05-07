@@ -1,0 +1,7 @@
+*.un~
+.$*.bkp
+*.pdf
+*.mp4
+.venv
+.DS_Store
+
