@@ -1,0 +1,17 @@
+site_name: Возвращение в IT за 50 лет
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: light blue
+    accent: amber
+site_url: https://miheysoft.github.io/it-in-50
+site_author: Aleks Miheev
+copyright: Aleks Miheev, miheysoft, 2025
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+dev_addr: '192.168.1.6:8000'
