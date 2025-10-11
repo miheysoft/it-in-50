@@ -9,8 +9,28 @@ site_url: https://miheysoft.github.io/it-in-50
 site_author: Aleks Miheev
 copyright: Aleks Miheev, miheysoft, 2025
 
+plugins:
+  - search
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
+
+nav:
+  - Home: index.md
+  - Zabbix:
+    - Установка: zabbix/install.md
+    - Настройка:
+      - Сервер: zabbix/02-configuration/server-setup.md
+      - Прокси: zabbix/02-configuration/proxies.md
+      - Шаблоны: zabbix/02-configuration/templates.md
+    - Мониторинг:
+      - Элементы данных: zabbix/03-monitoring/items.md
+      - Триггеры: zabbix/03-monitoring/triggers.md
+    - Автоматизация:
+      - API: zabbix/04-automation/api-examples.md
+      - Скрипты: zabbix/04-automation/alert-scripts.md
+    - Шпаргалка: zabbix/cheatsheet.md
+  - About: about.md
