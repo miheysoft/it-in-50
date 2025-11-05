@@ -17,7 +17,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-
 nav:
   - Home: index.md
   - Zabbix:
@@ -33,4 +32,8 @@ nav:
       - API: zabbix/04-automation/api-examples.md
       - Скрипты: zabbix/04-automation/alert-scripts.md
     - Шпаргалка: zabbix/cheatsheet.md
+  - Резервирование:
+    - ESXi:
+      - Включение и отключение виртуальных машин: backup/esxi/enable-disable-vms.md
+
   - About: about.md
